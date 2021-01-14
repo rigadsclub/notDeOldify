@@ -1,0 +1,26 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+requests = "==2.21.0"
+flask = "==1.1.1"
+torch = "==1.7.0"
+scikit-image = "==0.15.0"
+fastai = "==1.0.51"
+wandb = "==0.10.12"
+tensorboardx = "==1.6"
+ffmpeg = "==1.4"
+ffmpeg-python = "==0.1.17"
+youtube-dl = ">=2019.4.17"
+jupyterlab = "==1.2.4"
+opencv-python = ">=3.3.0.10"
+versioneer = "==0.18"
+numpy = "==1.16"
+pillow = "==6.2.1"
+
+[dev-packages]
+
+[requires]
+python_version = "3.7.9"
